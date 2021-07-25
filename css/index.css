@@ -255,51 +255,59 @@ img {
 	color:white;
 }
 .introduction{
-	width:33%;
-	color:#ffffff;
-	margin:10px;
-	
+	background-image: url('../img/index_detail_1.jpg');
 }
-.two_title1{
-	position:relative;
-	top:-150px;
-	left:150px;
-}
+
 .culture{
-	width:33%;
-	color:#ffffff;
-	margin:10px;
-	
+	background-image: url('../img/index_detail_2.jpg');
 }
-.two_title2{
-	position:relative;
-	top:-150px;
-	left:150px;
-}
+
 .place{
+	background-image: url('../img/index_detail_3.jpg');
+}
+.box_two{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.gutter {
 	width:33%;
+	height: 200px;
 	color:#ffffff;
-	margin:10px;
-	
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.two_ttitle3{
-	position:relative;
-	top:-150px;
-	left:150px;
+
+.two_title{
+	/* position:absolute
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
 }
+
 .detail{
 	width:100%;
 }
 .box_three{
 	background-color:#1b1f25;
+	margin-bottom: 40px;
 }
+
 .three_left{
 	width:33%;
 	margin:20px;
-	color:#F6F6F6;
 	display:flex;
 	position:relative;
 	justify-content: center;
+}
+.text3_title{
+	font-size: 32px;
+	font-weight:400;
+	color:#F6F6F6;
+}
+.text3_title1{
+	color: #4b4444;
 }
 .three_right{
 	width:66%;
@@ -336,19 +344,73 @@ img {
 .img_right{
 	width:100%;
 }
+
+.box_four {
+	margin-bottom: 40px;
+}
+
+.four_rignt{
+	display:flex;
+	/* align-items: center; */
+	flex-direction: column;
+	justify-content: center;
+}
 .four_left{
 	width:50%;
 }
 .four_img{
 	width:100%;
 }
-
-
-
-
-
+.four_title{
+	font-size: 32px;
+	color: #1b1f25;
+	margin-bottom: 20px;
+}
 
 .img_five{
 	width:100%
 }
 
+.box_five{
+	position:relative;
+}
+.fivetext{
+	position:absolute;
+	top:20%;
+	left:10%;
+}
+.box_six{
+	margin-left: 80px;
+}
+.six_top{
+	display: flex;
+	flex-direction: row;
+	margin: 30px 0;
+	font-size: 34px;
+	border-bottom: 1px solid #000000;
+}
+
+.six_img1{
+	display: flex;
+	flex-direction: row;
+	
+}
+.six_logo{
+	padding:0 40px;
+}
+.six_bottom{
+	display: flex;
+	flex-direction: row;
+}
+.six_list{
+	display:flex;
+	flex-direction: column;
+	margin-right: 50px;
+	align-items: flex-start;
+}
+.six_text2{
+	font-size: 34px;
+}
+.six_text3{
+	font: size 28px;
+}
