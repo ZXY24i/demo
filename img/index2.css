@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+.logo{
+	width:100%;
+	height:46px;
+}
+.box_top {
+	position: relative;
+}
+.nav{
+	position: relative;
+	z-index: 99;
+}
+.con {
+	width: 1170px;
+	margin: 0 auto;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav_right{
+	display: flex;
+	flex-direction:row;
+	color:#ffffff;
+}
+.text1{
+	margin:0 20px;
+	color:#FFFFFF;
+	
+}
+.swiper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 22;
+}
+.bg{
+	width: 100%;
+	
+}
